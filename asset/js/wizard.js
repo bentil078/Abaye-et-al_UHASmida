@@ -210,6 +210,7 @@
         data: postForm ,
         success: function (response) {
           alert(response);
+          window.location.reload();
            // You will get response from your PHP page (what you echo or print)
         },
         error: function(jqXHR, textStatus, errorThrown) {

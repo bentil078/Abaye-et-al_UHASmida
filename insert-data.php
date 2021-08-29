@@ -233,9 +233,9 @@ $sql_final_preview = mysqli_query($connect, "INSERT INTO `final_preview`(`PID`, 
 
 
 if ($sql && $sql_matrix && $sql_inverse) {
-	echo 'Insert success';
+	echo 'Data saved successfully';
 }else{
-	echo 'Error: '. mysqli_error($connect);
+	echo 'Error';
 }
 
 

@@ -1,7 +1,7 @@
 <?php
 	define('HOST', 'localhost');
 	define('USER', 'root');
-	define('PASSWORD', '');
+	define('PASSWORD', 'love@2019');
 	define('DB', 'uhas_mida');
 
 

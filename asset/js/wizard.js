@@ -205,24 +205,28 @@
     };
      // console.log(values);
      $.ajax({
-      url: "insert-data.php",
-      type: "POST",
-      data: postForm ,
-      success: function (response) {
-        if (response == 'Error'){
-          alert(response + ": Check data and make corrections");
+        url: "insert-data.php",
+        type: "POST",
+        data: postForm ,
+        success: function (response) {
+          if (response == 'Error'){
+            alert(response + ": Check data and make corrections");
 
-        }else{
-          alert(response);
-          window.location.reload();
+          }else if(response == 'Details already exist'){
+            alert(response);
+
+          }else{
+            alert(response);
+            window.location.reload();
+            
+          }
+           // You will get response from your PHP page (what you echo or print)
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+           console.log(textStatus, errorThrown);
         }
-         // You will get response from your PHP page (what you echo or print)
-      },
-      error: function(jqXHR, textStatus, errorThrown) {
-         console.log(textStatus, errorThrown);
-      }
-  });
-    // alert("Submitted...!");
+    });
+      // alert("Submitted...!");
     }
   });
 })(jQuery); 

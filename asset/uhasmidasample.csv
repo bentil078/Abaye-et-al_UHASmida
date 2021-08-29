@@ -1,0 +1,26 @@
+MATRIX,n,s,l,""""
+"""358""",0.743308954,0.038385673,0.014537805,""""
+"""356""",0.038517501,0.858022772,0.000753334,""""
+"""359""",0.168149989,0.005519944,0.872429503,""""
+,,,,
+ms data,m/z,m/z,m/z,
+Baseline blood (red cells),90932.587,246139.405,19431.986,
+Baseline blood (red cells),86929.012,235095.84,18440.94,
+Baseline blood (red cells),82193.759,224121.58,17593.593,
+Injected labelled cells,62181.317,227457.35,46386.106,
+Injected labelled cells,61913.85,224486.78,45604.158,
+Injected labelled cells,58824.59,214652.94,43727.02,
+Post-labelling red blood cells,68393.66,167323.85,15806.105,
+Post-labelling red blood cells,63268.021,156177.365,14959.92,
+Post-labelling red blood cells,63648.343,157106.55,14588.08,
+,,,,
+,50Cr spike added,Wt blood analysed,Hct,
+Baseline blood (red cells),100.5,0.176,1,
+Injected labelled cells,995,0.752,0.21,
+Post-labelling red blood cells,99.1,0.185,1,
+,,,,
+Density of red cells,1.095,Hct blood,0.19,
+Density of plasma,1.02,Weight,12.65,kg
+,,,,
+Infusate,volume,1.96,ml,
+,hct-inf,0.21,,

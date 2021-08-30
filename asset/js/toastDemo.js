@@ -1,10 +1,10 @@
 (function($) {
-  showSuccessToast = function() {
+  showSuccessToast = function(response) {
     'use strict';
     resetToastPosition();
     $.toast({
       heading: 'Success',
-      text: 'And these were just the basic demos! Scroll down to check further details on how to customize the output.',
+      text: response,
       showHideTransition: 'slide',
       icon: 'success',
       loaderBg: '#f96868',
@@ -23,24 +23,24 @@
       position: 'top-right'
     })
   };
-  showWarningToast = function() {
+  showWarningToast = function(response) {
     'use strict';
     resetToastPosition();
     $.toast({
       heading: 'Warning',
-      text: 'And these were just the basic demos! Scroll down to check further details on how to customize the output.',
+      text: response,
       showHideTransition: 'slide',
       icon: 'warning',
       loaderBg: '#57c7d4',
       position: 'top-right'
     })
   };
-  showDangerToast = function() {
+  showDangerToast = function(response) {
     'use strict';
     resetToastPosition();
     $.toast({
       heading: 'Danger',
-      text: 'And these were just the basic demos! Scroll down to check further details on how to customize the output.',
+      text: response,
       showHideTransition: 'slide',
       icon: 'error',
       loaderBg: '#f2a654',

@@ -210,15 +210,16 @@
         data: postForm ,
         success: function (response) {
           if (response == 'Error'){
-            alert(response + ": Check data and make corrections");
+            var res = response + ": Check data and make corrections";
+            showDangerToast(res);
 
           }else if(response == 'Details already exist'){
-            alert(response);
+            showWarningToast(response);
 
           }else{
-            alert(response);
+            showSuccessToast(response);
             window.location.reload();
-            
+
           }
            // You will get response from your PHP page (what you echo or print)
         },

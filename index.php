@@ -2256,6 +2256,9 @@
   <script src="asset/js/dropify.js"></script>  
   <script src="asset/js/custom.js"></script>
   <script src="asset/js/modal-demo.js"></script>
+
+  <script src="asset/js/toastDemo.js"></script>
+  <script src="asset/js/desktop-notification.js"></script>
   
   <!-- End custom js for this page-->
 </body>
